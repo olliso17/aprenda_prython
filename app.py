@@ -6,12 +6,14 @@ from datetime import date
 data = date.today()
 
 task = Task("teste","testando a entidade", True, uuid.uuid4().hex, data)
-# task1 = []
+task1 = []
 
 listEntity1 = ListEntity("lista de compras","checkbox",uuid.uuid4().hex, [])
 listEntity = ListEntity("lista de compras","checkbox",uuid.uuid4().hex, [])
 listEntity.addTasks(task)
-# listEntity1.addTasks()
+listEntity1.addTasks(task1)
+print(listEntity1.tasks)
+
 
 for lisTask in listEntity.tasks:
     print(lisTask.title)

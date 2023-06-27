@@ -29,26 +29,23 @@ class ListEntity(Base):
     @property
     def tasks(self):
         return self.__tasks
-        
+           
     def addTasks(self, task:Task):
         
         listTask = set(self.__tasks)
         
-        if task in listTask: 
+        if task in listTask:
             raise ValueError('Task already exists')
        
         self.__tasks.append(task)
 
     def removeTasks(self, task:Task):
-        
-        listTask = set(self.__tasks) 
-      
+                
+        listTask = set(self.__tasks)
+            
         if len(self.__tasks) == 0:
             raise ValueError('Tasks not found')
-        
-        if task not in listTask: 
-            raise ValueError('Task not found')
-        
-        self.__tasks.remove(task)
-        
-       
+    
+        if task not in listTask:
+            raise ValueError('Task not found')        
+        self.__tasks.remove(task)      

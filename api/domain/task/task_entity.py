@@ -22,7 +22,7 @@ class Task(Base):
 
     @property
     def status(self):
-        
+               
         return self.__status
 
     @property

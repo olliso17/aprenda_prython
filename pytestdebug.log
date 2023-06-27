@@ -1,0 +1,1844 @@
+versions pytest-7.4.0, python-3.8.10.final.0
+cwd=/home/patricia/Documentos/estudo_go/aprenda_python
+args=('-vvv', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x7f655ff3beb0>
+    pytest_plugin_registered [hook]
+        plugin: <Session aprenda_python exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x7f655ff3beb0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f655fe9f910>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f655fe9fc40>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7f655ff3beb0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f655fe9f910>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f655fe9fc40>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f655fe97fd0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f655fe2fd30>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7f655ff3beb0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f655fe9f910>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f655fe9fc40>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f655fe97fd0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f655fe2fd30>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x7f655fe9fac0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f6560d9c730>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          start_path: /home/patricia/Documentos/estudo_go/aprenda_python
+          startdir: /home/patricia/Documentos/estudo_go/aprenda_python
+      finish pytest_report_header --> [['rootdir: /home/patricia/Documentos/estudo_go/aprenda_python'], 'cachedir: .pytest_cache', ['using: pytest-7.4.0']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['/home/patricia/Documentos/estudo_go/aprenda_python'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (PosixPath('/home/patricia/Documentos/estudo_go/aprenda_python'), []) [collection]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/.flake8
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/.flake8
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/.flake8
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/.flake8
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/.gitignore
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/.gitignore
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/.gitignore
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/.gitignore
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/.pylintrc
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/.pylintrc
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/.pylintrc
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/.pylintrc
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/README.md
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/README.md
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/README.md
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/README.md
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/app.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/app.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/app.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/app.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/pytestdebug.log
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/pytestdebug.log
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/pytestdebug.log
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/pytestdebug.log
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/.git
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/.git
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/.github
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/.github
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/.pytest_cache
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/.pytest_cache
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/.vscode
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/.vscode
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/__init__.py
+                  path: /home/patricia/Documentos/estudo_go/aprenda_python/api/__init__.py
+              finish pytest_pycollect_makemodule --> <Package api> [hook]
+            finish pytest_collect_file --> [<Package api>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.py
+                  path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.py
+              finish pytest_pycollect_makemodule --> <Package domain> [hook]
+            finish pytest_collect_file --> [<Package domain>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/__init__.py
+                  path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/__init__.py
+              finish pytest_pycollect_makemodule --> <Package base> [hook]
+            finish pytest_collect_file --> [<Package base>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/__init__.py
+                  path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/__init__.py
+              finish pytest_pycollect_makemodule --> <Package list> [hook]
+            finish pytest_collect_file --> [<Package list>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.py
+                  path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.py
+              finish pytest_pycollect_makemodule --> <Package task> [hook]
+            finish pytest_collect_file --> [<Package task>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.py
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.py
+                  path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.py
+              finish pytest_pycollect_makemodule --> <Package util> [hook]
+            finish pytest_collect_file --> [<Package util>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f655ff3beb0>
+                collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/venv
+                path: /home/patricia/Documentos/estudo_go/aprenda_python/venv
+            finish pytest_ignore_collect --> True [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=6 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=6 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Package api> [collection]
+      pytest_collectstart [hook]
+          collector: <Package api>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package api>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/__init__.pyc
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/__init__.pyc
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package api>
+            file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/__init__.pyc
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/__init__.pyc
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'api/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'api/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package domain> [collection]
+      pytest_collectstart [hook]
+          collector: <Package domain>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package domain>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.pyc
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.pyc
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package domain>
+            file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.pyc
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/__init__.pyc
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/__init__.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/__init__.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'api/domain/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'api/domain/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package base> [collection]
+      pytest_collectstart [hook]
+          collector: <Package base>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package base>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/base.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/base.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package base>
+            file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/base.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/base/base.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'api/domain/base/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'api/domain/base/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package list> [collection]
+      pytest_collectstart [hook]
+          collector: <Package list>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package list>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/list_entity.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/list_entity.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package list>
+            file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/list_entity.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/list_entity.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/test_list_entity.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/test_list_entity.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package list>
+            file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/test_list_entity.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/test_list_entity.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Package list>
+              module_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/test_list_entity.py
+              path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/test_list_entity.py
+          finish pytest_pycollect_makemodule --> <Module test_list_entity.py> [hook]
+        finish pytest_collect_file --> [<Module test_list_entity.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'api/domain/list/__init__.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Module test_list_entity.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_list_entity.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_list_entity.py>
+      early skip of rewriting module: api [assertion]
+      early skip of rewriting module: api.domain [assertion]
+      early skip of rewriting module: api.domain.list [assertion]
+      find_module called for: api.domain.list.test_list_entity [assertion]
+      matched test file '/home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/test_list_entity.py' [assertion]
+      found cached rewritten pyc for /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/list/test_list_entity.py [assertion]
+      early skip of rewriting module: api.domain.list.list_entity [assertion]
+      early skip of rewriting module: api.domain.base [assertion]
+      early skip of rewriting module: api.domain.base.base [assertion]
+      early skip of rewriting module: api.util [assertion]
+      early skip of rewriting module: api.util.regex [assertion]
+      early skip of rewriting module: api.domain.task [assertion]
+      early skip of rewriting module: api.domain.task.task_entity [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_list_entity.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_list_entity.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_list_entity.py>
+            name: pytest
+            obj: <module 'pytest' from '/home/patricia/.local/lib/python3.8/site-packages/pytest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_list_entity.py>
+            name: uuid
+            obj: <module 'uuid' from '/usr/lib/python3.8/uuid.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_list_entity.py>
+            name: datetime
+            obj: <class 'datetime.datetime'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_list_entity.py>
+            name: ListEntity
+            obj: <class 'api.domain.list.list_entity.ListEntity'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_list_entity.py>
+            name: Task
+            obj: <class 'api.domain.task.task_entity.Task'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_list_entity.py>
+            name: TestListEntity
+            obj: <class 'api.domain.list.test_list_entity.TestListEntity'>
+        finish pytest_pycollect_makeitem --> <Class TestListEntity> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'api/domain/list/test_list_entity.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Class TestListEntity> [collection]
+      pytest_collectstart [hook]
+          collector: <Class TestListEntity>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Class TestListEntity>
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestListEntity>
+            name: list_name_string
+            obj: <function TestListEntity.list_name_string at 0x7f655fe0fb80>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestListEntity>
+            name: list_name_empty
+            obj: <function TestListEntity.list_name_empty at 0x7f655fe1f820>
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'api/domain/list/test_list_entity.py::TestListEntity' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'api/domain/list/test_list_entity.py::TestListEntity' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'api/domain/list/test_list_entity.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'api/domain/list/__init__.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package task> [collection]
+      pytest_collectstart [hook]
+          collector: <Package task>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package task>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.pyc
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.pyc
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package task>
+            file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.pyc
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/__init__.pyc
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/task_entity.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/task_entity.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package task>
+            file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/task_entity.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/task_entity.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/test_task_entity.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/test_task_entity.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package task>
+            file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/test_task_entity.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/test_task_entity.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Package task>
+              module_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/test_task_entity.py
+              path: /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/test_task_entity.py
+          finish pytest_pycollect_makemodule --> <Module test_task_entity.py> [hook]
+        finish pytest_collect_file --> [<Module test_task_entity.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'api/domain/task/__init__.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Module test_task_entity.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_task_entity.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_task_entity.py>
+      find_module called for: api.domain.task.test_task_entity [assertion]
+      matched test file '/home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/test_task_entity.py' [assertion]
+      found cached rewritten pyc for /home/patricia/Documentos/estudo_go/aprenda_python/api/domain/task/test_task_entity.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_entity.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_entity.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/home/patricia/.local/lib/python3.8/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_entity.py>
+            name: pytest
+            obj: <module 'pytest' from '/home/patricia/.local/lib/python3.8/site-packages/pytest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_entity.py>
+            name: uuid
+            obj: <module 'uuid' from '/usr/lib/python3.8/uuid.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_entity.py>
+            name: datetime
+            obj: <class 'datetime.datetime'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_entity.py>
+            name: Task
+            obj: <class 'api.domain.task.task_entity.Task'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_entity.py>
+            name: TestTask
+            obj: <class 'api.domain.task.test_task_entity.TestTask'>
+        finish pytest_pycollect_makeitem --> <Class TestTask> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'api/domain/task/test_task_entity.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Class TestTask> [collection]
+      pytest_collectstart [hook]
+          collector: <Class TestTask>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Class TestTask>
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_title_string
+            obj: <function TestTask.test_title_string at 0x7f655fe1fd30>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56520>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_title_string>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_title_empty
+            obj: <function TestTask.test_title_empty at 0x7f655fe1fdc0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56460>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_title_empty>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_title_blank
+            obj: <function TestTask.test_title_blank at 0x7f655fe1fe50>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56490>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_title_blank>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_description_string
+            obj: <function TestTask.test_description_string at 0x7f655fe1fee0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56520>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_description_string>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_description_empty
+            obj: <function TestTask.test_description_empty at 0x7f655fe1ff70>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56460>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_description_empty>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_description_blank
+            obj: <function TestTask.test_description_blank at 0x7f655fe23040>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56490>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_description_blank>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_listId_uuid
+            obj: <function TestTask.test_listId_uuid at 0x7f655fe230d0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56520>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_listId_uuid>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_listId_empty
+            obj: <function TestTask.test_listId_empty at 0x7f655fe23160>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56460>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_listId_empty>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_listId_blank
+            obj: <function TestTask.test_listId_blank at 0x7f655fe231f0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56490>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_listId_blank>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_data_string
+            obj: <function TestTask.test_data_string at 0x7f655fe23280>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56520>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_data_string>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_data_empty
+            obj: <function TestTask.test_data_empty at 0x7f655fe23310>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56460>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_data_empty>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestTask>
+            name: test_data_blank
+            obj: <function TestTask.test_data_blank at 0x7f655fe233a0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f655fe56490>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_data_blank>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'api/domain/task/test_task_entity.py::TestTask' lenresult=12 outcome='passed'> [hook]
+    genitems <Function test_title_string> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_title_string>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_title_empty> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_title_empty>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_title_blank> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_title_blank>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_description_string> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_description_string>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_description_empty> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_description_empty>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_description_blank> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_description_blank>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_listId_uuid> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_listId_uuid>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_listId_empty> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_listId_empty>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_listId_blank> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_listId_blank>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_data_string> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_data_string>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_data_empty> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_data_empty>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_data_blank> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_data_blank>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'api/domain/task/test_task_entity.py::TestTask' lenresult=12 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'api/domain/task/test_task_entity.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'api/domain/task/__init__.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package util> [collection]
+      pytest_collectstart [hook]
+          collector: <Package util>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package util>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.pyc
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.pyc
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package util>
+            file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.pyc
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/__init__.pyc
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/regex.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/regex.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package util>
+            file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/regex.py
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/regex.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            collection_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/regex.pyc
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/regex.pyc
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package util>
+            file_path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/regex.pyc
+            path: /home/patricia/Documentos/estudo_go/aprenda_python/api/util/regex.pyc
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'api/util/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'api/util/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          items: [<Function test_title_string>, <Function test_title_empty>, <Function test_title_blank>, <Function test_description_string>, <Function test_description_empty>, <Function test_description_blank>, <Function test_listId_uuid>, <Function test_listId_empty>, <Function test_listId_blank>, <Function test_data_string>, <Function test_data_empty>, <Function test_data_blank>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x7f655ff3beb0>
+            items: [<Function test_title_string>, <Function test_title_empty>, <Function test_title_blank>, <Function test_description_string>, <Function test_description_empty>, <Function test_description_blank>, <Function test_listId_uuid>, <Function test_listId_empty>, <Function test_listId_blank>, <Function test_data_string>, <Function test_data_empty>, <Function test_data_blank>]
+            start_path: /home/patricia/Documentos/estudo_go/aprenda_python
+            startdir: /home/patricia/Documentos/estudo_go/aprenda_python
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session aprenda_python exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=12>
+      pytest_runtest_protocol [hook]
+          item: <Function test_title_string>
+          nextitem: <Function test_title_empty>
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_title_string
+            location: ('api/domain/task/test_task_entity.py', 8, 'TestTask.test_title_string')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_title_string>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_title_string>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_string' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_string' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_string' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_title_string>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_title_string>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_title_string>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_string' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_string' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_string' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_title_string>
+            nextitem: <Function test_title_empty>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_title_string>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_string' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_string' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_string' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_title_string
+            location: ('api/domain/task/test_task_entity.py', 8, 'TestTask.test_title_string')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_title_empty>
+          nextitem: <Function test_title_blank>
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_title_empty
+            location: ('api/domain/task/test_task_entity.py', 13, 'TestTask.test_title_empty')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_title_empty>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_title_empty>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_empty' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_empty' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_empty' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_title_empty>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_title_empty>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_title_empty>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_empty' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_empty' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_empty' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_title_empty>
+            nextitem: <Function test_title_blank>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_title_empty>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_empty' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_empty' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_empty' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_title_empty
+            location: ('api/domain/task/test_task_entity.py', 13, 'TestTask.test_title_empty')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_title_blank>
+          nextitem: <Function test_description_string>
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_title_blank
+            location: ('api/domain/task/test_task_entity.py', 19, 'TestTask.test_title_blank')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_title_blank>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_title_blank>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_blank' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_blank' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_blank' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_title_blank>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_title_blank>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_title_blank>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_blank' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_blank' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_blank' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_title_blank>
+            nextitem: <Function test_description_string>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_title_blank>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_blank' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_blank' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_title_blank' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_title_blank
+            location: ('api/domain/task/test_task_entity.py', 19, 'TestTask.test_title_blank')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_description_string>
+          nextitem: <Function test_description_empty>
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_description_string
+            location: ('api/domain/task/test_task_entity.py', 25, 'TestTask.test_description_string')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_description_string>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_description_string>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_string' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_string' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_string' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_description_string>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_description_string>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_description_string>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_string' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_string' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_string' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_description_string>
+            nextitem: <Function test_description_empty>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_description_string>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_string' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_string' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_string' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_description_string
+            location: ('api/domain/task/test_task_entity.py', 25, 'TestTask.test_description_string')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_description_empty>
+          nextitem: <Function test_description_blank>
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_description_empty
+            location: ('api/domain/task/test_task_entity.py', 30, 'TestTask.test_description_empty')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_description_empty>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_description_empty>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_empty' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_empty' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_empty' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_description_empty>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_description_empty>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_description_empty>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_empty' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_empty' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_empty' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_description_empty>
+            nextitem: <Function test_description_blank>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_description_empty>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_empty' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_empty' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_empty' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_description_empty
+            location: ('api/domain/task/test_task_entity.py', 30, 'TestTask.test_description_empty')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_description_blank>
+          nextitem: <Function test_listId_uuid>
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_description_blank
+            location: ('api/domain/task/test_task_entity.py', 36, 'TestTask.test_description_blank')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_description_blank>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_description_blank>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_blank' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_blank' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_blank' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_description_blank>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_description_blank>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_description_blank>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_blank' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_blank' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_blank' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_description_blank>
+            nextitem: <Function test_listId_uuid>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_description_blank>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_blank' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_blank' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_description_blank' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_description_blank
+            location: ('api/domain/task/test_task_entity.py', 36, 'TestTask.test_description_blank')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_listId_uuid>
+          nextitem: <Function test_listId_empty>
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_listId_uuid
+            location: ('api/domain/task/test_task_entity.py', 42, 'TestTask.test_listId_uuid')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_listId_uuid>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_listId_uuid>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_uuid' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_uuid' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_uuid' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_listId_uuid>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_listId_uuid>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_listId_uuid>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_uuid' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_uuid' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_uuid' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_listId_uuid>
+            nextitem: <Function test_listId_empty>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_listId_uuid>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_uuid' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_uuid' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_uuid' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_listId_uuid
+            location: ('api/domain/task/test_task_entity.py', 42, 'TestTask.test_listId_uuid')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_listId_empty>
+          nextitem: <Function test_listId_blank>
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_listId_empty
+            location: ('api/domain/task/test_task_entity.py', 48, 'TestTask.test_listId_empty')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_listId_empty>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_listId_empty>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_empty' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_empty' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_empty' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_listId_empty>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_listId_empty>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_listId_empty>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_empty' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_empty' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_empty' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_listId_empty>
+            nextitem: <Function test_listId_blank>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_listId_empty>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_empty' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_empty' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_empty' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_listId_empty
+            location: ('api/domain/task/test_task_entity.py', 48, 'TestTask.test_listId_empty')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_listId_blank>
+          nextitem: <Function test_data_string>
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_listId_blank
+            location: ('api/domain/task/test_task_entity.py', 54, 'TestTask.test_listId_blank')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_listId_blank>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_listId_blank>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_blank' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_blank' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_blank' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_listId_blank>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_listId_blank>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_listId_blank>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_blank' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_blank' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_blank' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_listId_blank>
+            nextitem: <Function test_data_string>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_listId_blank>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_blank' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_blank' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_listId_blank' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_listId_blank
+            location: ('api/domain/task/test_task_entity.py', 54, 'TestTask.test_listId_blank')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_data_string>
+          nextitem: <Function test_data_empty>
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_data_string
+            location: ('api/domain/task/test_task_entity.py', 60, 'TestTask.test_data_string')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_data_string>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_data_string>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_string' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_string' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_string' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_data_string>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_data_string>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_data_string>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_string' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_string' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_string' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_data_string>
+            nextitem: <Function test_data_empty>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_data_string>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_string' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_string' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_string' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_data_string
+            location: ('api/domain/task/test_task_entity.py', 60, 'TestTask.test_data_string')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_data_empty>
+          nextitem: <Function test_data_blank>
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_data_empty
+            location: ('api/domain/task/test_task_entity.py', 66, 'TestTask.test_data_empty')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_data_empty>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_data_empty>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_empty' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_empty' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_empty' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_data_empty>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_data_empty>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_data_empty>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_empty' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_empty' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_empty' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_data_empty>
+            nextitem: <Function test_data_blank>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_data_empty>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_empty' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_empty' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_empty' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_data_empty
+            location: ('api/domain/task/test_task_entity.py', 66, 'TestTask.test_data_empty')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_data_blank>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_data_blank
+            location: ('api/domain/task/test_task_entity.py', 72, 'TestTask.test_data_blank')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_data_blank>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_data_blank>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_blank' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_blank' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_blank' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_data_blank>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_data_blank>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_data_blank>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_blank' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_blank' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_blank' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_data_blank>
+            nextitem: None
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_data_blank>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_blank' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_blank' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'api/domain/task/test_task_entity.py::TestTask::test_data_blank' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f655ff3beb0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: api/domain/task/test_task_entity.py::TestTask::test_data_blank
+            location: ('api/domain/task/test_task_entity.py', 72, 'TestTask.test_data_blank')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session aprenda_python exitstatus=0 testsfailed=0 testscollected=12>
+        exitstatus: 0
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x7f655fe97fd0>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x7f655ff3beb0>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x7f655ff3beb0>
+    finish pytest_unconfigure --> [] [hook]

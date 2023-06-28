@@ -1,8 +1,10 @@
-import pytest
 import uuid
 from datetime import datetime
+import pytest
+
 from api.domain.list.list_entity import ListEntity
 from api.domain.task.task_entity import Task
+
 
 class TestListEntity:
     def list_name_string(self):

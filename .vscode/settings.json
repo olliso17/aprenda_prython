@@ -1,14 +1,18 @@
 {
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.python"
-    },
-    "python.formatting.provider": "none",
-    "python.linting.pylintArgs": [
-        "--disable=E0015",
-        "--disable=C0115",
-        "--disable=C0103",
-        "--disable=C0116"
-    ]
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.formatting.provider": "none",
+  "python.linting.pylintArgs": [
+    "--disable=E0015",
+    "--disable=C0115",
+    "--disable=C0103",
+    "--disable=C0116",
+    "--disable=E0401"
+  ],
+  "python.testing.pytestArgs": ["api"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
 }

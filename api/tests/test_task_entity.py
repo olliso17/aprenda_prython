@@ -1,6 +1,7 @@
 import pytest
 import uuid
 from datetime import datetime
+
 from api.domain.task.task_entity import Task
 
 
@@ -75,3 +76,4 @@ class TestTask:
         task = Task("teste","testando a entidade", True, listId, "  ")
         with pytest.raises(ValueError, match=r"Data is required"):
             task.timeSelect
+            

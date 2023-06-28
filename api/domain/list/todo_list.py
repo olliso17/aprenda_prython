@@ -1,9 +1,12 @@
 from typing import List
-from api.domain.base.base import Base
+
+from api.domain.base.base import BaseEntity
 from api.domain.task.task_entity import Task
 
 
-class ListEntity(Base):
+
+
+class TodoList(BaseEntity):
     def __init__(self, name: str, typeTask: str, userId: str, tasks: List[Task]):
         super().__init__()
         self.__name = name

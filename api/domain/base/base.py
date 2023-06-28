@@ -3,7 +3,7 @@ from datetime import datetime
 from api.util.regex import regex
 
 
-class Base():
+class BaseEntity():
     def __init__(self):
         self.id = uuid.uuid4().hex
         self.createdAt = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')

@@ -1,6 +1,9 @@
-from api.domain.base.base import Base
 
-class Task(Base):
+
+from api.domain.base.base import BaseEntity
+
+
+class Task(BaseEntity):
 
     def __init__(self, title:str, description:str, status:bool, listId:str, timeSelect:str):
         super().__init__()

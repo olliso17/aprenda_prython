@@ -43,12 +43,13 @@ class TodoList(BaseEntity):
         self.__tasks.append(task)
 
     def removeTasks(self, task:Task):
-                
+        
         listTask = set(self.__tasks)
-            
+        
         if len(self.__tasks) == 0:
             raise ValueError('Tasks not found')
     
         if task not in listTask:
-            raise ValueError('Task not found')        
-        self.__tasks.remove(task)      
+            raise ValueError('Task not found')
+        
+        self.__tasks.remove(task)

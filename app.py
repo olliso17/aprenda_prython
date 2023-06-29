@@ -1,19 +1,15 @@
-import uuid
-from datetime import date
+# import uuid
+# from datetime import datetime
 
-from api.domain.list.todo_list import TodoList
-from api.domain.task.task_entity import Task
+# from api.domain.list.todo_list import TodoList
+# from api.domain.task.task_entity import Task
 
-data = date.today()
-
-task = Task("teste","testando a entidade", True, uuid.uuid4().hex, data)
-
-
-listEntity1 = TodoList("lista de compras","checkbox",uuid.uuid4().hex, [])
-listEntity = TodoList("lista de compras","checkbox",uuid.uuid4().hex, [])
-listEntity.addTasks(task)
-
-
-for lisTask in listEntity.tasks:
-    print(lisTask.title)
-    
+# date_s = (datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f'))
+# task = Task("teste","testando a entidade", True, uuid.uuid4().hex, date_s)
+# task1 = Task("teste3","testando a entidade", True, uuid.uuid4().hex, date_s)
+# todoList = TodoList("lista de compras","checkbox", "", [])
+# todoList.addTasks(task1)
+# todoList.addTasks(task)
+# # todoList.removeTasks(task)
+# listTask = set(todoList.tasks)
+      

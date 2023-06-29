@@ -1,0 +1,38 @@
+version: "3"
+services:
+  back_end:
+    build:
+      context: ./api
+      dockerfile: DockerFile
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+  postgres:
+    image: "postgres"
+    env_file:
+      - .env
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+
+  pgadmin-compose:
+    image: dpage/pgadmin4
+    env_file:
+      - .env
+    ports:
+      - "54323:80"
+    depends_on:
+      - postgres
+  # front_end:
+  #   build:
+  #     context: ./front_end
+  #     dockerfile: DockerFile
+  #   command: npm run dev
+  #   ports:
+  #     - "3000:3001"
+  #   volumes:
+  #     - /front_end
+  #   depends_on:
+  #     - postgres
